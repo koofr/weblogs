@@ -10,11 +10,11 @@ be clearly marked as "draft" in the documentation.
 
 ## Using
 
-	import "github.com/keep94/weblogs"
+	import "github.com/bancek/weblogs"
 
 ## Installing
 
-	go get github.com/keep94/weblogs
+	go get github.com/bancek/weblogs
 
 ## Features
 
@@ -23,7 +23,7 @@ If server panics before sending a response, weblogs automatically sends a
 
 ## Online Documentation
 
-Online documentation available [here](http://go.pkgdoc.org/github.com/keep94/weblogs).
+Online documentation available [here](http://go.pkgdoc.org/github.com/bancek/weblogs).
 
 ## Dependencies
 
