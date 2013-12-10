@@ -8,8 +8,8 @@ package weblogs_test
 import (
 	"bytes"
 	"fmt"
-	"github.com/keep94/weblogs"
-	"github.com/keep94/weblogs/loggers"
+	"github.com/bancek/weblogs"
+	"github.com/bancek/weblogs/loggers"
 	"io"
 	"net/http"
 	"net/url"
