@@ -44,6 +44,7 @@ func NewSnapshot(r *http.Request) *Snapshot {
 type Capture struct {
 	// The underlying ResponseWriter
 	http.ResponseWriter
+	http.Hijacker
 	status    int
 	size      int
 	statusSet bool

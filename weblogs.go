@@ -222,7 +222,8 @@ func (l loggerBase) NewSnapshot(r *http.Request) Snapshot {
 }
 
 func (l loggerBase) NewCapture(w http.ResponseWriter) Capture {
-	return &loggers.Capture{ResponseWriter: w}
+	hj, _ := w.(http.Hijacker)
+	return &loggers.Capture{ResponseWriter: w, Hijacker: hj}
 }
 
 type simpleLogger struct {
