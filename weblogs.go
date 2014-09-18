@@ -9,8 +9,8 @@ package weblogs
 import (
 	"bytes"
 	"fmt"
-	"github.com/bancek/weblogs/loggers"
 	"github.com/gorilla/context"
+	"github.com/koofr/weblogs/loggers"
 	"io"
 	"net/http"
 	"os"

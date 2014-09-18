@@ -6,7 +6,7 @@
 package loggers_test
 
 import (
-	"github.com/bancek/weblogs/loggers"
+	"github.com/koofr/weblogs/loggers"
 	"net/url"
 	"testing"
 )
